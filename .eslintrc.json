@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+            "semi-style": ["error", "last"],
+            "indent": ["error", 4],
+            "eqeqeq": ["error", "ignore"],
+            "semi": ["error", "always"]
+    }
+}
